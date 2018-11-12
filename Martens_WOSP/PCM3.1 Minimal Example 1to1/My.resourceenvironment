@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/4.0">
+  <linkingresource id="_L4cU8DG_Ed6EJ7BTXdnr2w" toResourceContainer_LinkingResource="_BKGYMTGZEd6Jm7MyC-G39g" fromResourceContainer_LinkingResource="_B0aZ0CHdEd6lJo4DCALHMw">
+    <communicationLinkResourceSpecifications_LinkingResource>
+      <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+      <latency_CommunicationLinkResourceSpecification specification="1"/>
+      <throughput_CommunicationLinkResourceSpecification specification="1000"/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingresource>
+  <resourceContainer_ResourceEnvironment id="_B0aZ0CHdEd6lJo4DCALHMw" entityName="appserver">
+    <activeResourceSpecifications_ResourceContainer schedulingPolicy="PROCESSOR_SHARING">
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="1"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <activeResourceSpecifications_ResourceContainer schedulingPolicy="PROCESSOR_SHARING">
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_BIjHoQ3KEdyouMqirZIhzQ"/>
+      <processingRate_ProcessingResourceSpecification specification="1"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment id="_BKGYMTGZEd6Jm7MyC-G39g" entityName="otherAppServer">
+    <activeResourceSpecifications_ResourceContainer schedulingPolicy="PROCESSOR_SHARING">
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <activeResourceSpecifications_ResourceContainer schedulingPolicy="FCFS">
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_BIjHoQ3KEdyouMqirZIhzQ"/>
+      <processingRate_ProcessingResourceSpecification specification="0.7"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+</ResourceEnvironment>

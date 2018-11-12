@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/System/4.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmi:id="_L1Fy8ERrEd6DkLvexN2PSw" type="CompositeModel" measurementUnit="Pixel">
+  <styles xmi:type="notation:PageStyle" xmi:id="_L1Fy8URrEd6DkLvexN2PSw"/>
+  <styles xmi:type="notation:GuideStyle" xmi:id="_L1Fy8kRrEd6DkLvexN2PSw"/>
+  <styles xmi:type="notation:DescriptionStyle" xmi:id="_L1Fy80RrEd6DkLvexN2PSw"/>
+  <element xmi:type="System" href="brsc.system#_Mkm7gNo_EdyxgfK4Hy_RFA"/>
+</notation:Diagram>

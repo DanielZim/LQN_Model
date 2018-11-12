@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/4.0" xmlns:_1="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/4.0" id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository">
+  <components__Repository xsi:type="BasicComponent" id="_os1t4CHbEd62GabW1zGSBw" entityName="AComponent">
+    <providedRoles_InterfaceProvidingEntity id="_qZKs0CHbEd62GabW1zGSBw" entityName="Provided_AnInterface_AComponent" providedInterface__ProvidedRole="_n7g-oCHbEd62GabW1zGSBw"/>
+    <requiredRoles_InterfaceRequiringEntity id="_gRAmADG-Ed6EJ7BTXdnr2w" entityName="Required_IBill_AComponent" requiredInterface__RequiredRole="_cbJHsDG-Ed6EJ7BTXdnr2w"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="_1:ResourceDemandingSEFF" describedService__SEFF="//@interfaces__Repository.0/@signatures__Interface.0" id="12345">
+      <steps_Behaviour xsi:type="_1:StartAction" id="_qZUd0CHbEd62GabW1zGSBw" successor_AbstractAction="_K5Xe8CqrEd6CJKI87YLEBw"/>
+      <steps_Behaviour xsi:type="_1:StopAction" id="_qZUd0SHbEd62GabW1zGSBw" predecessor_AbstractAction="_rZek0CjiEd6iAK3mDUF9Bg"/>
+      <steps_Behaviour xsi:type="_1:InternalAction" id="_rZek0CjiEd6iAK3mDUF9Bg" predecessor_AbstractAction="_K5Xe8CqrEd6CJKI87YLEBw" successor_AbstractAction="_qZUd0SHbEd62GabW1zGSBw">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="5"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="_1:InternalAction" id="_K5Xe8CqrEd6CJKI87YLEBw" predecessor_AbstractAction="_qZUd0CHbEd62GabW1zGSBw" successor_AbstractAction="_rZek0CjiEd6iAK3mDUF9Bg">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="1"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_BIjHoQ3KEdyouMqirZIhzQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="BasicComponent" id="_5UTk0DGREd6imauD-Db77w" entityName="AnotherComponent">
+    <providedRoles_InterfaceProvidingEntity id="_5yjnEDGREd6imauD-Db77w" entityName="Provided_AnInterface_aName" providedInterface__ProvidedRole="_n7g-oCHbEd62GabW1zGSBw"/>
+    <requiredRoles_InterfaceRequiringEntity id="_hGgDkDG-Ed6EJ7BTXdnr2w" entityName="Required_IBill_AnotherComponent" requiredInterface__RequiredRole="_cbJHsDG-Ed6EJ7BTXdnr2w"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="_1:ResourceDemandingSEFF" describedService__SEFF="//@interfaces__Repository.0/@signatures__Interface.0" id="12">
+      <steps_Behaviour xsi:type="_1:StartAction" id="_5zTN8DGREd6imauD-Db77w" successor_AbstractAction="_9iBicDGREd6imauD-Db77w"/>
+      <steps_Behaviour xsi:type="_1:StopAction" id="_5zTN8TGREd6imauD-Db77w" predecessor_AbstractAction="_QMI6QDMpEd6LwosvLKeL3A"/>
+      <steps_Behaviour xsi:type="_1:InternalAction" id="_9iBicDGREd6imauD-Db77w" entityName="calc" predecessor_AbstractAction="_5zTN8DGREd6imauD-Db77w" successor_AbstractAction="__zAtoDGREd6imauD-Db77w">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="1"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="_1:InternalAction" id="__zAtoDGREd6imauD-Db77w" entityName="write" predecessor_AbstractAction="_9iBicDGREd6imauD-Db77w" successor_AbstractAction="_QMI6QDMpEd6LwosvLKeL3A">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="5"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_BIjHoQ3KEdyouMqirZIhzQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="_1:InternalAction" id="_QMI6QDMpEd6LwosvLKeL3A" entityName="writeMore" predecessor_AbstractAction="__zAtoDGREd6imauD-Db77w" successor_AbstractAction="_5zTN8TGREd6imauD-Db77w">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="1"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_BIjHoQ3KEdyouMqirZIhzQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="BasicComponent" id="_hywsoDG-Ed6EJ7BTXdnr2w" entityName="Billing">
+    <providedRoles_InterfaceProvidingEntity id="_io2nIDG-Ed6EJ7BTXdnr2w" entityName="Provided_IBill_billing" providedInterface__ProvidedRole="_cbJHsDG-Ed6EJ7BTXdnr2w"/>
+    <requiredRoles_InterfaceRequiringEntity id="_mW0tsDG-Ed6EJ7BTXdnr2w" entityName="Required_IBank_billing" requiredInterface__RequiredRole="_jMnbgDG-Ed6EJ7BTXdnr2w"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="_1:ResourceDemandingSEFF" describedService__SEFF="//@interfaces__Repository.1/@signatures__Interface.0" id="1234511">
+      <steps_Behaviour xsi:type="_1:StartAction" id="_io2nITG-Ed6EJ7BTXdnr2w" successor_AbstractAction="_pmsjADG-Ed6EJ7BTXdnr2w"/>
+      <steps_Behaviour xsi:type="_1:StopAction" id="_io2nIjG-Ed6EJ7BTXdnr2w" predecessor_AbstractAction="_pmsjADG-Ed6EJ7BTXdnr2w"/>
+      <steps_Behaviour xsi:type="_1:InternalAction" id="_pmsjADG-Ed6EJ7BTXdnr2w" entityName="calc" predecessor_AbstractAction="_io2nITG-Ed6EJ7BTXdnr2w" successor_AbstractAction="_io2nIjG-Ed6EJ7BTXdnr2w">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="10+1"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="BasicComponent" id="_mzk7IDG-Ed6EJ7BTXdnr2w" entityName="Bank">
+    <providedRoles_InterfaceProvidingEntity id="_oeuOUDG-Ed6EJ7BTXdnr2w" entityName="Provided_IBank_Bank" providedInterface__ProvidedRole="_jMnbgDG-Ed6EJ7BTXdnr2w"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="_1:ResourceDemandingSEFF" describedService__SEFF="//@interfaces__Repository.2/@signatures__Interface.0" id="987">
+      <steps_Behaviour xsi:type="_1:StartAction" id="_oeuOUTG-Ed6EJ7BTXdnr2w" successor_AbstractAction="_xTxjcDG-Ed6EJ7BTXdnr2w"/>
+      <steps_Behaviour xsi:type="_1:StopAction" id="_oeuOUjG-Ed6EJ7BTXdnr2w" predecessor_AbstractAction="_xTxjcDG-Ed6EJ7BTXdnr2w"/>
+      <steps_Behaviour xsi:type="_1:InternalAction" id="_xTxjcDG-Ed6EJ7BTXdnr2w" entityName="calc" predecessor_AbstractAction="_oeuOUTG-Ed6EJ7BTXdnr2w" successor_AbstractAction="_oeuOUjG-Ed6EJ7BTXdnr2w">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="5"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="2"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_BIjHoQ3KEdyouMqirZIhzQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="CompositeComponent" id="_MGpBIDMAEd6bn7YijZU_HQ" entityName="CompositeBank">
+    <assemblyContexts_ComposedStructure id="_SlpE4DMAEd6bn7YijZU_HQ" entityName="Assembly_billing &lt;billing>" encapsulatedComponent_AssemblyContext="_hywsoDG-Ed6EJ7BTXdnr2w"/>
+    <assemblyContexts_ComposedStructure id="_Tj7SEDMAEd6bn7YijZU_HQ" entityName="Assembly_Bank &lt;Bank>" encapsulatedComponent_AssemblyContext="_mzk7IDG-Ed6EJ7BTXdnr2w"/>
+    <providedDelegationConnectors_ComposedStructure id="_VivIIDMAEd6bn7YijZU_HQ" entityName="ProvDelegation Provided_IBill_CompositeBank -> Provided_IBill_billing" innerProvidedRole_ProvidedDelegationConnector="_io2nIDG-Ed6EJ7BTXdnr2w" outerProvidedRole_ProvidedDelegationConnector="_Oe7uMDMAEd6bn7YijZU_HQ" assemblyContext_ProvidedDelegationConnector="_SlpE4DMAEd6bn7YijZU_HQ"/>
+    <assemblyConnectors_ComposedStructure id="_WWcdADMAEd6bn7YijZU_HQ" entityName="Connector Assembly_billing &lt;billing> -> Assembly_Bank &lt;Bank>" requiringAssemblyContext_AssemblyConnector="_SlpE4DMAEd6bn7YijZU_HQ" providingAssemblyContext_AssemblyConnector="_Tj7SEDMAEd6bn7YijZU_HQ" providedRole_AssemblyConnector="_oeuOUDG-Ed6EJ7BTXdnr2w" requiredRole_AssemblyConnector="_mW0tsDG-Ed6EJ7BTXdnr2w"/>
+    <providedRoles_InterfaceProvidingEntity id="_Oe7uMDMAEd6bn7YijZU_HQ" entityName="Provided_IBill_CompositeBank" providedInterface__ProvidedRole="_cbJHsDG-Ed6EJ7BTXdnr2w"/>
+    <requiredRoles_InterfaceRequiringEntity id="_7Uv70DMAEd6bn7YijZU_HQ" entityName="Required_IBank_CompositeBank" requiredInterface__RequiredRole="_jMnbgDG-Ed6EJ7BTXdnr2w"/>
+  </components__Repository>
+  <interfaces__Repository id="_n7g-oCHbEd62GabW1zGSBw" entityName="AnInterface">
+    <signatures__Interface serviceName="do"/>
+  </interfaces__Repository>
+  <interfaces__Repository id="_cbJHsDG-Ed6EJ7BTXdnr2w" entityName="IBill">
+    <signatures__Interface serviceName="billIt"/>
+  </interfaces__Repository>
+  <interfaces__Repository id="_jMnbgDG-Ed6EJ7BTXdnr2w" entityName="IBank">
+    <signatures__Interface serviceName="requestMuchMoney"/>
+  </interfaces__Repository>
+</Repository>

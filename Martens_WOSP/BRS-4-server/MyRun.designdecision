@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ASCII"?>
+<designdecision:Problem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/4.0" xmlns:designdecision="http://sdq.ipd.uka.de/DesignDecision/1.0">
+  <designdecision xsi:type="designdecision:ProcessingRateDecision">
+    <domain xsi:type="designdecision:DoubleRange" lowerBoundIncluded="false" to="2.0" from="0.5"/>
+    <processingresourcespecification href="brs.resourceenvironment#//@resourceContainer_ResourceEnvironment.0/@activeResourceSpecifications_ResourceContainer.0"/>
+    <resourcecontainer href="brs.resourceenvironment#_8-cpgNo_EdyxgfK4Hy_RFA"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:ProcessingRateDecision">
+    <domain xsi:type="designdecision:DoubleRange" lowerBoundIncluded="false" to="2.0" from="0.5"/>
+    <processingresourcespecification href="brs.resourceenvironment#//@resourceContainer_ResourceEnvironment.1/@activeResourceSpecifications_ResourceContainer.0"/>
+    <resourcecontainer href="brs.resourceenvironment#_EX6xcdpAEdyxgfK4Hy_RFA"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:ProcessingRateDecision">
+    <domain xsi:type="designdecision:DoubleRange" lowerBoundIncluded="false" to="2.0" from="0.5"/>
+    <processingresourcespecification href="brs.resourceenvironment#//@resourceContainer_ResourceEnvironment.2/@activeResourceSpecifications_ResourceContainer.0"/>
+    <resourcecontainer href="brs.resourceenvironment#_U2Nv4dpAEdyxgfK4Hy_RFA"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:ProcessingRateDecision">
+    <domain xsi:type="designdecision:DoubleRange" lowerBoundIncluded="false" to="2.0" from="0.5"/>
+    <processingresourcespecification href="brs.resourceenvironment#//@resourceContainer_ResourceEnvironment.3/@activeResourceSpecifications_ResourceContainer.0"/>
+    <resourcecontainer href="brs.resourceenvironment#_L0MH4UUXEd6HAbOR56wSfA"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:ProcessingRateDecision">
+    <domain xsi:type="designdecision:DoubleRange" lowerBoundIncluded="false" to="2.0" from="0.5"/>
+    <processingresourcespecification href="brs.resourceenvironment#//@resourceContainer_ResourceEnvironment.4/@activeResourceSpecifications_ResourceContainer.0"/>
+    <resourcecontainer href="brs.resourceenvironment#_-S5TAUVLEd6KA7GFQHGCjQ"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:ProcessingRateDecision">
+    <domain xsi:type="designdecision:DoubleRange" lowerBoundIncluded="false" to="2.0" from="0.5"/>
+    <processingresourcespecification href="brs.resourceenvironment#//@resourceContainer_ResourceEnvironment.5/@activeResourceSpecifications_ResourceContainer.0"/>
+    <resourcecontainer href="brs.resourceenvironment#_Dc89EUVMEd6KA7GFQHGCjQ"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:ProcessingRateDecision">
+    <domain xsi:type="designdecision:DoubleRange" lowerBoundIncluded="false" to="2.0" from="0.5"/>
+    <processingresourcespecification href="brs.resourceenvironment#//@resourceContainer_ResourceEnvironment.6/@activeResourceSpecifications_ResourceContainer.0"/>
+    <resourcecontainer href="brs.resourceenvironment#_L0Dy4dpAEdyxgfK4Hy_RFA"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:ProcessingRateDecision">
+    <domain xsi:type="designdecision:DoubleRange" lowerBoundIncluded="false" to="2.0" from="0.5"/>
+    <processingresourcespecification href="brs.resourceenvironment#//@resourceContainer_ResourceEnvironment.7/@activeResourceSpecifications_ResourceContainer.0"/>
+    <resourcecontainer href="brs.resourceenvironment#_K74MwUVMEd6KA7GFQHGCjQ"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AssembledComponentDecision">
+    <domain xsi:type="designdecision:EquivalentComponents">
+      <repositorycomponent xsi:type="BasicComponent" href="brs.repository#_V19EALcKEd2_9rSHIHHezA"/>
+      <repositorycomponent xsi:type="BasicComponent" href="brs.repository#_6bAEENo5EdyCSNQKlT1LxA"/>
+      <repositorycomponent xsi:type="BasicComponent" href="brs.repository#_Mh43oLcKEd2_9rSHIHHezA"/>
+    </domain>
+    <assemblycontext href="brs.system#_N8Qq8No_EdyxgfK4Hy_RFA"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AssembledComponentDecision">
+    <domain xsi:type="designdecision:EquivalentComponents">
+      <repositorycomponent xsi:type="BasicComponent" href="brs.repository#_rpLzcEecEd6KA7GFQHGCjQ"/>
+      <repositorycomponent xsi:type="BasicComponent" href="brs.repository#_sQC2sNo4EdyCSNQKlT1LxA"/>
+    </domain>
+    <assemblycontext href="brs.system#_CAsP4EVLEd6KA7GFQHGCjQ"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AssembledComponentDecision">
+    <domain xsi:type="designdecision:EquivalentComponents">
+      <repositorycomponent xsi:type="BasicComponent" href="brs.repository#_rpLzcEecEd6KA7GFQHGCjQ"/>
+      <repositorycomponent xsi:type="BasicComponent" href="brs.repository#_sQC2sNo4EdyCSNQKlT1LxA"/>
+    </domain>
+    <assemblycontext href="brs.system#_cWmNkNo_EdyxgfK4Hy_RFA"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AllocationDecision">
+    <domain xsi:type="designdecision:AvailableServers">
+      <resourcecontainer href="brs.resourceenvironment#_8-cpgNo_EdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_EX6xcdpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_U2Nv4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0MH4UUXEd6HAbOR56wSfA"/>
+      <resourcecontainer href="brs.resourceenvironment#_-S5TAUVLEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_Dc89EUVMEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0Dy4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_K74MwUVMEd6KA7GFQHGCjQ"/>
+    </domain>
+    <allocationcontext href="brs.allocation#_PZQ-QLfXEd2PvvnrNadJLQ"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AllocationDecision">
+    <domain xsi:type="designdecision:AvailableServers">
+      <resourcecontainer href="brs.resourceenvironment#_8-cpgNo_EdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_EX6xcdpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_U2Nv4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0MH4UUXEd6HAbOR56wSfA"/>
+      <resourcecontainer href="brs.resourceenvironment#_-S5TAUVLEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_Dc89EUVMEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0Dy4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_K74MwUVMEd6KA7GFQHGCjQ"/>
+    </domain>
+    <allocationcontext href="brs.allocation#_QVANwLfXEd2PvvnrNadJLQ"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AllocationDecision">
+    <domain xsi:type="designdecision:AvailableServers">
+      <resourcecontainer href="brs.resourceenvironment#_8-cpgNo_EdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_EX6xcdpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_U2Nv4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0MH4UUXEd6HAbOR56wSfA"/>
+      <resourcecontainer href="brs.resourceenvironment#_-S5TAUVLEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_Dc89EUVMEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0Dy4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_K74MwUVMEd6KA7GFQHGCjQ"/>
+    </domain>
+    <allocationcontext href="brs.allocation#_Q-kvMLfXEd2PvvnrNadJLQ"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AllocationDecision">
+    <domain xsi:type="designdecision:AvailableServers">
+      <resourcecontainer href="brs.resourceenvironment#_8-cpgNo_EdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_EX6xcdpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_U2Nv4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0MH4UUXEd6HAbOR56wSfA"/>
+      <resourcecontainer href="brs.resourceenvironment#_-S5TAUVLEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_Dc89EUVMEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0Dy4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_K74MwUVMEd6KA7GFQHGCjQ"/>
+    </domain>
+    <allocationcontext href="brs.allocation#_hgPxkEVMEd6KA7GFQHGCjQ"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AllocationDecision">
+    <domain xsi:type="designdecision:AvailableServers">
+      <resourcecontainer href="brs.resourceenvironment#_8-cpgNo_EdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_EX6xcdpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_U2Nv4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0MH4UUXEd6HAbOR56wSfA"/>
+      <resourcecontainer href="brs.resourceenvironment#_-S5TAUVLEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_Dc89EUVMEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0Dy4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_K74MwUVMEd6KA7GFQHGCjQ"/>
+    </domain>
+    <allocationcontext href="brs.allocation#_jwneoFaYEd6HqahvVj4WQQ"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AllocationDecision">
+    <domain xsi:type="designdecision:AvailableServers">
+      <resourcecontainer href="brs.resourceenvironment#_8-cpgNo_EdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_EX6xcdpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_U2Nv4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0MH4UUXEd6HAbOR56wSfA"/>
+      <resourcecontainer href="brs.resourceenvironment#_-S5TAUVLEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_Dc89EUVMEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0Dy4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_K74MwUVMEd6KA7GFQHGCjQ"/>
+    </domain>
+    <allocationcontext href="brs.allocation#_YPvG8Fi9Ed63I7LJSYv-tA"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AllocationDecision">
+    <domain xsi:type="designdecision:AvailableServers">
+      <resourcecontainer href="brs.resourceenvironment#_8-cpgNo_EdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_EX6xcdpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_U2Nv4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0MH4UUXEd6HAbOR56wSfA"/>
+      <resourcecontainer href="brs.resourceenvironment#_-S5TAUVLEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_Dc89EUVMEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0Dy4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_K74MwUVMEd6KA7GFQHGCjQ"/>
+    </domain>
+    <allocationcontext href="brs.allocation#_P_6pAFjBEd6PI5QcJ-So1g"/>
+  </designdecision>
+  <designdecision xsi:type="designdecision:AllocationDecision">
+    <domain xsi:type="designdecision:AvailableServers">
+      <resourcecontainer href="brs.resourceenvironment#_8-cpgNo_EdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_EX6xcdpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_U2Nv4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0MH4UUXEd6HAbOR56wSfA"/>
+      <resourcecontainer href="brs.resourceenvironment#_-S5TAUVLEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_Dc89EUVMEd6KA7GFQHGCjQ"/>
+      <resourcecontainer href="brs.resourceenvironment#_L0Dy4dpAEdyxgfK4Hy_RFA"/>
+      <resourcecontainer href="brs.resourceenvironment#_K74MwUVMEd6KA7GFQHGCjQ"/>
+    </domain>
+    <allocationcontext href="brs.allocation#_bvhqwFjBEd6PI5QcJ-So1g"/>
+  </designdecision>
+</designdecision:Problem>

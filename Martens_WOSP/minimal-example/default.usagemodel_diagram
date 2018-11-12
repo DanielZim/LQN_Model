@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/UsageModel/4.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmi:id="_e8HzAlK1Ed61aZySv3W2rw" type="PCM Usage Model" name="default.usagemodel_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_e-pikFK1Ed61aZySv3W2rw" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_e-pik1K1Ed61aZySv3W2rw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_e-zTkFK1Ed61aZySv3W2rw" type="3001">
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_e-zTkVK1Ed61aZySv3W2rw"/>
+        <element xmi:type="Start" href="default.usagemodel#_e8HzAFK1Ed61aZySv3W2rw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e-zTklK1Ed61aZySv3W2rw" x="160" y="19"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_e-zTk1K1Ed61aZySv3W2rw" type="3002">
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_e-zTlFK1Ed61aZySv3W2rw"/>
+        <element xmi:type="Stop" href="default.usagemodel#_e8HzAVK1Ed61aZySv3W2rw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e-zTlVK1Ed61aZySv3W2rw" x="150" y="274"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_h9_BgFK1Ed61aZySv3W2rw" type="3003">
+        <children xmi:type="notation:Node" xmi:id="_h9_Bg1K1Ed61aZySv3W2rw" type="5004"/>
+        <children xmi:type="notation:Node" xmi:id="_h9_BhFK1Ed61aZySv3W2rw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_h9_BhVK1Ed61aZySv3W2rw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_h9_BhlK1Ed61aZySv3W2rw"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_h9_BgVK1Ed61aZySv3W2rw"/>
+        <element xmi:type="EntryLevelSystemCall" href="default.usagemodel#_hygxUFK1Ed61aZySv3W2rw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h9_BglK1Ed61aZySv3W2rw" x="105" y="134"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_e-pilFK1Ed61aZySv3W2rw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_e-pilVK1Ed61aZySv3W2rw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_e-pikVK1Ed61aZySv3W2rw"/>
+    <element xmi:type="ScenarioBehaviour" href="default.usagemodel#_e7-CAVK1Ed61aZySv3W2rw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e-piklK1Ed61aZySv3W2rw" x="115" y="120" width="336" height="331"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_OanTEFK2Ed61aZySv3W2rw" type="2002">
+    <children xmi:type="notation:Node" xmi:id="_OanTE1K2Ed61aZySv3W2rw" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_OanTFFK2Ed61aZySv3W2rw" type="5003"/>
+    <children xmi:type="notation:Node" xmi:id="_OanTFVK2Ed61aZySv3W2rw" type="5009"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_OanTEVK2Ed61aZySv3W2rw"/>
+    <element xmi:type="ClosedWorkload" href="default.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OanTElK2Ed61aZySv3W2rw" x="620" y="180"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_e8HzA1K1Ed61aZySv3W2rw"/>
+  <element xmi:type="UsageScenario" href="default.usagemodel#_e7-CAFK1Ed61aZySv3W2rw"/>
+  <edges xmi:type="notation:Edge" xmi:id="_icPDwFK1Ed61aZySv3W2rw" type="4002" source="_e-zTkFK1Ed61aZySv3W2rw" target="_h9_BgFK1Ed61aZySv3W2rw">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_icPDwVK1Ed61aZySv3W2rw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_icPDwlK1Ed61aZySv3W2rw"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_icPDw1K1Ed61aZySv3W2rw" points="[-9, 10, 75, -74]$[-21, 67, 63, -17]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_izLkIFK1Ed61aZySv3W2rw" type="4002" source="_h9_BgFK1Ed61aZySv3W2rw" target="_e-zTk1K1Ed61aZySv3W2rw">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_izLkIVK1Ed61aZySv3W2rw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_izLkIlK1Ed61aZySv3W2rw"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_izLkI1K1Ed61aZySv3W2rw" points="[12, 25, -67, -151]$[94, 191, 15, 15]"/>
+  </edges>
+</notation:Diagram>

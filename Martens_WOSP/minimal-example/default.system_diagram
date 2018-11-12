@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" type="CompositeModel" name="default.system_diagram" measurementUnit="Pixel">
+  <children type="2001">
+    <children type="5002"/>
+    <children type="7001">
+      <children type="3002">
+        <children type="5004"/>
+        <children type="3001">
+          <children type="5001">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <styles xsi:type="notation:FontStyle"/>
+          <styles xsi:type="notation:DescriptionStyle"/>
+          <styles xsi:type="notation:FillStyle"/>
+          <styles xsi:type="notation:LineStyle"/>
+          <element href="default.repository#_HU9w8FK0Ed61aZySv3W2rw"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children type="3004">
+          <children type="5005">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <styles xsi:type="notation:FontStyle"/>
+          <styles xsi:type="notation:DescriptionStyle"/>
+          <styles xsi:type="notation:FillStyle"/>
+          <styles xsi:type="notation:LineStyle"/>
+          <element href="default.repository#_IRwwYFK0Ed61aZySv3W2rw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="212" y="16"/>
+        </children>
+        <children type="3004">
+          <children type="5005">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <styles xsi:type="notation:FontStyle"/>
+          <styles xsi:type="notation:DescriptionStyle"/>
+          <styles xsi:type="notation:FillStyle"/>
+          <styles xsi:type="notation:LineStyle"/>
+          <element href="default.repository#_JCfCsFK0Ed61aZySv3W2rw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="212" y="61"/>
+        </children>
+        <styles xsi:type="notation:FontStyle"/>
+        <styles xsi:type="notation:DescriptionStyle"/>
+        <styles xsi:type="notation:FillStyle"/>
+        <styles xsi:type="notation:LineStyle"/>
+        <element href="default.system#_3vW4kFK0Ed61aZySv3W2rw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="60" y="44" width="213" height="96"/>
+      </children>
+      <children type="3002">
+        <children type="5004"/>
+        <children type="3001">
+          <children type="5001">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <styles xsi:type="notation:FontStyle"/>
+          <styles xsi:type="notation:DescriptionStyle"/>
+          <styles xsi:type="notation:FillStyle"/>
+          <styles xsi:type="notation:LineStyle"/>
+          <element href="default.repository#_JiOSsFK0Ed61aZySv3W2rw"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <styles xsi:type="notation:FontStyle"/>
+        <styles xsi:type="notation:DescriptionStyle"/>
+        <styles xsi:type="notation:FillStyle"/>
+        <styles xsi:type="notation:LineStyle"/>
+        <element href="default.system#_8XceAFK0Ed61aZySv3W2rw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="470" y="-72" width="273" height="95"/>
+      </children>
+      <children type="3002">
+        <children type="5004"/>
+        <children type="3001">
+          <children type="5001">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <styles xsi:type="notation:FontStyle"/>
+          <styles xsi:type="notation:DescriptionStyle"/>
+          <styles xsi:type="notation:FillStyle"/>
+          <styles xsi:type="notation:LineStyle"/>
+          <element href="default.repository#_JvfSoFK0Ed61aZySv3W2rw"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <styles xsi:type="notation:FontStyle"/>
+        <styles xsi:type="notation:DescriptionStyle"/>
+        <styles xsi:type="notation:FillStyle"/>
+        <styles xsi:type="notation:LineStyle"/>
+        <element href="default.system#_Byo7YFK1Ed61aZySv3W2rw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="475" y="75" width="266" height="106"/>
+      </children>
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <children type="3003">
+      <children type="5003">
+        <layoutConstraint xsi:type="notation:Location" y="5"/>
+      </children>
+      <styles xsi:type="notation:FontStyle"/>
+      <styles xsi:type="notation:DescriptionStyle"/>
+      <styles xsi:type="notation:FillStyle"/>
+      <styles xsi:type="notation:LineStyle"/>
+      <element href="default.system#_6xE9IFK0Ed61aZySv3W2rw"/>
+      <layoutConstraint xsi:type="notation:Bounds"/>
+    </children>
+    <styles xsi:type="notation:FontStyle"/>
+    <styles xsi:type="notation:DescriptionStyle"/>
+    <styles xsi:type="notation:FillStyle"/>
+    <styles xsi:type="notation:LineStyle"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="150" y="65" width="821" height="491"/>
+  </children>
+  <styles xsi:type="notation:PageStyle"/>
+  <styles xsi:type="notation:GuideStyle"/>
+  <styles xsi:type="notation:DescriptionStyle"/>
+  <element href="default.system#_2zwL8FK0Ed61aZySv3W2rw"/>
+  <edges type="4003" source="//@children.0/@children.2" target="//@children.0/@children.1/@children.0/@children.1">
+    <styles xsi:type="notation:RoutingStyle"/>
+    <styles xsi:type="notation:FontStyle"/>
+    <styles xsi:type="notation:LineStyle"/>
+    <element href="default.system#_7hWjgFK0Ed61aZySv3W2rw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[30, 0, -123, -58]$[151, 62, -2, 4]"/>
+  </edges>
+  <edges type="4001" source="//@children.0/@children.1/@children.0/@children.2" target="//@children.0/@children.1/@children.1/@children.1">
+    <styles xsi:type="notation:RoutingStyle"/>
+    <styles xsi:type="notation:FontStyle"/>
+    <styles xsi:type="notation:LineStyle"/>
+    <element href="default.system#_ALhzoFK1Ed61aZySv3W2rw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, -153, 116]$[154, -116, -6, 0]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.2,0.53333336)"/>
+  </edges>
+  <edges type="4001" source="//@children.0/@children.1/@children.0/@children.3" target="//@children.0/@children.1/@children.2/@children.1">
+    <styles xsi:type="notation:RoutingStyle"/>
+    <styles xsi:type="notation:FontStyle"/>
+    <styles xsi:type="notation:LineStyle"/>
+    <element href="default.system#_CfgBYFK1Ed61aZySv3W2rw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, -167, -23]$[173, 25, -1, 2]"/>
+  </edges>
+</notation:Diagram>

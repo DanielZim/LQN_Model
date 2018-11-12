@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/4.0">
+  <linkingresource id="_qZSkcFK2Ed61aZySv3W2rw" entityName="LAN1" toResourceContainer_LinkingResource="_JZKn4VK1Ed61aZySv3W2rw" fromResourceContainer_LinkingResource="_E8jSoVK1Ed61aZySv3W2rw">
+    <communicationLinkResourceSpecifications_LinkingResource failureProbability="2.0E-4">
+      <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+      <latency_CommunicationLinkResourceSpecification specification="0.0"/>
+      <throughput_CommunicationLinkResourceSpecification specification="1000000"/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingresource>
+  <linkingresource id="_0Y_u0FK2Ed61aZySv3W2rw" entityName="LAN2" toResourceContainer_LinkingResource="_NtlDYVK1Ed61aZySv3W2rw" fromResourceContainer_LinkingResource="_JZKn4VK1Ed61aZySv3W2rw">
+    <communicationLinkResourceSpecifications_LinkingResource failureProbability="2.0E-4">
+      <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+      <latency_CommunicationLinkResourceSpecification specification="0.0"/>
+      <throughput_CommunicationLinkResourceSpecification specification="1000000"/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingresource>
+  <resourceContainer_ResourceEnvironment id="_E8jSoVK1Ed61aZySv3W2rw" entityName="Server Node 1">
+    <activeResourceSpecifications_ResourceContainer MTTR="6.0" MTTF="300000.0" schedulingPolicy="PROCESSOR_SHARING">
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="3.5"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment id="_JZKn4VK1Ed61aZySv3W2rw" entityName="Server Node 2">
+    <activeResourceSpecifications_ResourceContainer MTTR="3.0" MTTF="250000.0" schedulingPolicy="PROCESSOR_SHARING">
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="4.0"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment id="_NtlDYVK1Ed61aZySv3W2rw" entityName="Server Node 3">
+    <activeResourceSpecifications_ResourceContainer MTTR="4.0" MTTF="275000.0" schedulingPolicy="PROCESSOR_SHARING">
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="3.0"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+</ResourceEnvironment>

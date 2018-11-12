@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/4.0" xmlns:_1="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/4.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmi:id="_YpVmUVK1Ed61aZySv3W2rw" type="allocation" name="default.allocation_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_YrbRAFK1Ed61aZySv3W2rw" type="2002">
+    <children xmi:type="notation:Node" xmi:id="_YrbRA1K1Ed61aZySv3W2rw" type="5003"/>
+    <children xmi:type="notation:Node" xmi:id="_YrbRBFK1Ed61aZySv3W2rw" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_ZygN0FK1Ed61aZySv3W2rw" type="3001">
+        <children xmi:type="notation:Node" xmi:id="_ZygN01K1Ed61aZySv3W2rw" type="5001"/>
+        <children xmi:type="notation:Node" xmi:id="_ZygN1FK1Ed61aZySv3W2rw" type="5005"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_ZygN0VK1Ed61aZySv3W2rw"/>
+        <element xmi:type="AllocationContext" href="default.allocation#_ZkMsEFK1Ed61aZySv3W2rw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZygN0lK1Ed61aZySv3W2rw" x="54" y="7"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_YrbRBVK1Ed61aZySv3W2rw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_YrbRBlK1Ed61aZySv3W2rw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_YrbRAVK1Ed61aZySv3W2rw"/>
+    <element xmi:type="_1:ResourceContainer" href="My.resourceenvironment#_E8jSoVK1Ed61aZySv3W2rw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YrbRAlK1Ed61aZySv3W2rw" x="45" y="45" width="446" height="131"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_YrbRB1K1Ed61aZySv3W2rw" type="2002">
+    <children xmi:type="notation:Node" xmi:id="_YrbRClK1Ed61aZySv3W2rw" type="5003"/>
+    <children xmi:type="notation:Node" xmi:id="_YrbRC1K1Ed61aZySv3W2rw" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_cCc3MFK1Ed61aZySv3W2rw" type="3001">
+        <children xmi:type="notation:Node" xmi:id="_cCc3M1K1Ed61aZySv3W2rw" type="5001"/>
+        <children xmi:type="notation:Node" xmi:id="_cCc3NFK1Ed61aZySv3W2rw" type="5005"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_cCc3MVK1Ed61aZySv3W2rw"/>
+        <element xmi:type="AllocationContext" href="default.allocation#_b0vyYFK1Ed61aZySv3W2rw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cCc3MlK1Ed61aZySv3W2rw" x="25" y="8"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_YrbRDFK1Ed61aZySv3W2rw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_YrbRDVK1Ed61aZySv3W2rw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_YrbRCFK1Ed61aZySv3W2rw"/>
+    <element xmi:type="_1:ResourceContainer" href="My.resourceenvironment#_JZKn4VK1Ed61aZySv3W2rw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YrbRCVK1Ed61aZySv3W2rw" x="45" y="190" width="446" height="151"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_YrbRDlK1Ed61aZySv3W2rw" type="2002">
+    <children xmi:type="notation:Node" xmi:id="_YrbREVK1Ed61aZySv3W2rw" type="5003"/>
+    <children xmi:type="notation:Node" xmi:id="_YrbRElK1Ed61aZySv3W2rw" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_dj6C4FK1Ed61aZySv3W2rw" type="3001">
+        <children xmi:type="notation:Node" xmi:id="_dj6C41K1Ed61aZySv3W2rw" type="5001"/>
+        <children xmi:type="notation:Node" xmi:id="_dj6C5FK1Ed61aZySv3W2rw" type="5005"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_dj6C4VK1Ed61aZySv3W2rw"/>
+        <element xmi:type="AllocationContext" href="default.allocation#_dTEKgFK1Ed61aZySv3W2rw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dj6C4lK1Ed61aZySv3W2rw" x="20" y="5"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_YrbRE1K1Ed61aZySv3W2rw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_YrbRFFK1Ed61aZySv3W2rw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_YrbRD1K1Ed61aZySv3W2rw"/>
+    <element xmi:type="_1:ResourceContainer" href="My.resourceenvironment#_NtlDYVK1Ed61aZySv3W2rw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YrbREFK1Ed61aZySv3W2rw" x="45" y="360" width="441" height="171"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_YpVmUlK1Ed61aZySv3W2rw"/>
+  <element xmi:type="Allocation" href="default.allocation#_YpVmUFK1Ed61aZySv3W2rw"/>
+</notation:Diagram>
